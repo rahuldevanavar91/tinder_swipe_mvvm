@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:gravity="center"
+        android:text="Thats it..!!!\nYou viewed your all favorites"
+        android:textSize="@dimen/_18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_22dp"
+        android:paddingLeft="@dimen/_22dp"
+        android:paddingRight="@dimen/_22dp"
+        android:text="Retry" />
+
+</LinearLayout>
